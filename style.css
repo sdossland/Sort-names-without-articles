@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+.container {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #000;
+}
+h1, ul, button {
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+}
+ul, button {
+    font-size: 16px;
+}
+ul {
+    list-style-type: none;
+    border-bottom: 1px solid #000;
+    padding: 10px;
+}
+li {
+    padding: 10px 0;
+}
+.buttons {
+    text-align: center;
+}
+button {
+    margin: 10px 20px;
+}
