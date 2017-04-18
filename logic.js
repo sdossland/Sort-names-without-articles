@@ -18,6 +18,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     return book; //if neither of the above 'if' conditions are true, return entire initial book name
   }
+  // //could also use regex:
+  // function removeArticles(book) {
+  //   return book.replace(/^(a |an |the)/i, '').trim();
+  // }
 
   var compare = function(a, b) {
     let aTitle = removeArticles(a.toLowerCase()),
